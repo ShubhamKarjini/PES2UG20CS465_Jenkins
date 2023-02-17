@@ -13,7 +13,7 @@ pipeline {
         sh './a.out'
         echo 'Test Stage Successful'
        }
-     
+     }
     
     stage('Deploy') {
       steps {
